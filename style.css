@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Latitude';
+    src: url('/assets/fonts/Latitude-Regular.otf') format('otf'),
+         url('/assets/fonts/Latitude-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'Compagnon';
+    src: url('/assets/fonts/Compagnon-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html, body {
+    background-color: lightyellow;
+    color: midnightblue;
+    font-size: 4vw;
+    font-family: 'Latitude';
+  
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2em;
+    padding: 2em;
+}
+
+p {
+    background-color: ghostwhite;
+    border-radius: 25%;
+    line-height: 150%;
+    padding: 2em;
+    margin: .5em;
+}
+
+p.outro {
+    font-family: "Compagnon-Bold";
+    font-size: 5vw;
+    text-align: center;
+}
+
+ 
+img.top-left {
+    position: fixed;
+     top: 0vh; 
+     left: 1vw;
+     width: 6em;
+    
+ }
+
+
+
+
+ img.top-right {
+    position: fixed;
+     top: 10vh; 
+     right: 10vw;
+     width: 6em;
+    
+ }
+    
+
+ section.image {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+ }
+
+ img.mid {
+    
+     width: 6em;
+    
+ }
+ 
+
+ img.bottom-left {
+    position: fixed;
+     bottom: 7vh; 
+     left: 9vw;
+     width: 6em;
+
+ }
+
+ img.bottom-right {
+    position: fixed;
+     bottom: 8vh; 
+    right: 7vw;
+     width: 6em;
+    
+ }
