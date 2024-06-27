@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Latitude-Regular';
-    src: url('/assets/fonts/Latitude-Regular.otf') format('otf'),
-         url('/assets/fonts/Latitude-Regular.ttf') format('ttf');
+    src: url(/assets/fonts/Latitude-Regular.otf),
+         url(/assets/fonts/Latitude-Regular.ttf);
   }
 
 @font-face {
     font-family: 'Compagnon-Bold';
-    src: url('/assets/fonts/Compagnon-Bold.otf') format('otf');
+    src: url(/assets/fonts/Compagnon-Bold.otf);
   }
 
   /*START OF RESET from https://piccalil.li/blog/a-more-modern-css-reset/ /*
