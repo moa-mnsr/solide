@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'Latitude';
-    src: url('assets/fonts/Latitude-Regular.otf') format('otf'),
-         url('assets/fonts/Latitude-Regular.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-
-@font-face {
-    font-family: 'Compagnon';
-    src: url('assets/fonts/Compagnon-Bold.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-  }
-
+@import url(fonts.css);
 @import url(reset.css);
 
 html, body {
