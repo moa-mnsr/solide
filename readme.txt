@@ -1,4 +1,4 @@
-changes to make:
+TO-DO:
 
 - add a play button at top; record voice reading whole piece
 
@@ -12,7 +12,11 @@ changes to make:
 
 - make images play recordings of more abstract sounds when clicked (perhaps rip sounds from youtube, etc?)
 
-- figure out why font isnt showing up off of my laptop & add backup font families
 
 - dark mode button? ooo....(JS for this? or just a different html file?)
 
+
+DONE:
+
+- figured out why font isnt showing up off of my laptop
+- added backup font families
