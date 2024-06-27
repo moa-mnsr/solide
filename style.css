@@ -1,11 +1,10 @@
-@import url(fonts.css);
 @import url(reset.css);
 
 html, body {
     background-color: lightyellow;
     color: midnightblue;
     font-size: 4vw;
-    font-family: 'Latitude';
+    font-family: 'Latitude-Regular';
   
 }
 

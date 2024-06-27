@@ -2,6 +2,20 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+    font-family: 'Latitude-Regular';
+    src: 
+        local('Latitude-Regular'),
+        url('assets/fonts/Latitude-Regular.otf') format('otf'),
+         url('assets/fonts/Latitude-Regular.ttf') format('ttf');
+  }
+
+@font-face {
+    font-family: 'Compagnon-Bold';
+    src: 
+        local('Compagnon-Bold')
+        url('assets/fonts/Compagnon-Bold.otf') format('otf');
+  }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
