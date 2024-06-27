@@ -1,16 +1,12 @@
 @font-face {
     font-family: 'Latitude-Regular';
-    src: 
-        local('Latitude-Regular'),
-        url('assets/fonts/Latitude-Regular.otf') format('otf'),
-         url('assets/fonts/Latitude-Regular.ttf') format('ttf');
+    src: url('/assets/fonts/Latitude-Regular.otf') format('otf'),
+         url('/assets/fonts/Latitude-Regular.ttf') format('ttf');
   }
 
 @font-face {
     font-family: 'Compagnon-Bold';
-    src: 
-        local('Compagnon-Bold')
-        url('assets/fonts/Compagnon-Bold.otf') format('otf');
+    src: url('/assets/fonts/Compagnon-Bold.otf') format('otf');
   }
 
   /*START OF RESET from https://piccalil.li/blog/a-more-modern-css-reset/ /*
@@ -94,8 +90,7 @@ html, body {
     background-color: lightyellow;
     color: midnightblue;
     font-size: 4vw;
-    font-family: 'Latitude-Regular';
-  
+    font-family: 'Latitude-Regular', serif;
 }
 
 
@@ -116,7 +111,7 @@ p {
 }
 
 p.outro {
-    font-family: "Compagnon-Bold";
+    font-family: 'Compagnon-Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 5vw;
     text-align: center;
 }
