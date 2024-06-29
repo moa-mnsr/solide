@@ -1,0 +1,160 @@
+@import url(/assets/reset.css);
+
+@font-face {
+    font-family: 'Latitude-Regular';
+    src: url(/assets/fonts/Latitude-Regular.otf),
+         url(/assets/fonts/Latitude-Regular.ttf);
+  }
+
+@font-face {
+    font-family: 'Compagnon-Bold';
+    src: url(/assets/fonts/Compagnon-Bold.otf);
+  }
+
+html, body {
+    background-color: lightyellow;
+    color: midnightblue;
+    font-size: 4vw;
+    font-family: 'Latitude-Regular', serif;
+    margin: 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+div.stanza {
+    background-color: ghostwhite;
+    border-radius: 25%;
+    padding: 2em 4em;
+    align-content: center;
+    width: fit-content
+}
+
+div.intro, div.outro {
+    font-family: 'Compagnon-Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    border: thick double midnightblue;
+}
+
+div.image-container {
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+    margin: 2em 0;
+
+}
+
+img {
+    width: 50vw;
+}
+
+div.outro {
+    padding: 1em;
+}
+
+
+/*
+div.image1-container {
+    top: 10vh;
+    justify-content: flex-end;
+    margin: 0 2em;
+  
+}
+
+div.image1-container img {
+    width: 20vw;
+}
+
+
+
+div.image2-container img {
+    width: 20vw;
+}
+
+div.image3-container {
+    top: 10vh;
+}
+
+
+
+div.image4-container img {
+    justify-content: flex-start;
+
+    width: 20vw;
+}
+
+
+
+/*
+img.top-left {
+    position: fixed;
+     top: 0vh; 
+     left: 1vw;
+     width: 6em;
+    
+ }
+
+
+
+
+ img.top-right {
+    position: fixed;
+     top: 10vh; 
+     right: 10vw;
+     width: 6em;
+    
+ }
+    
+
+ 
+ section.image {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+ }
+
+ img.mid {
+    
+     width: 6em;
+    
+ }
+ 
+
+ img.bottom-left {
+    position: fixed;
+     bottom: 7vh; 
+     left: 9vw;
+     width: 6em;
+
+ }
+
+ img.bottom-right {
+    position: fixed;
+     bottom: 8vh; 
+    right: 7vw;
+     width: 6em;
+    
+ }
+/*
+
+ /*
+ @media only screen and (max-width: 500px) {
+  body {
+    font-size: 7vw;
+  }
+ }
+  /*
